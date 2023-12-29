@@ -58,6 +58,9 @@ public class Board {
 	
 	public boolean thereIsAPiece(Position position)
 	{
+		//if(thereIsAPiece(position)) {
+		//	throw new BoardException("There is a piece on this position: " + position);
+		//}
 		
 		return piece(position) != null;
 	}
